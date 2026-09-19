@@ -1,0 +1,61 @@
+{
+  "build_timestamp": "2026-08-17T01:37:18.606913",
+  "total_genes": 307,
+  "sources": [
+    {
+      "source_id": "GENAGE",
+      "name": "GenAge",
+      "version": "2024",
+      "description": "Human aging gene database"
+    },
+    {
+      "source_id": "LONGEVITYMAP",
+      "name": "LongevityMap",
+      "version": "2023",
+      "description": "Human longevity associations"
+    },
+    {
+      "source_id": "CAGE",
+      "name": "cAge",
+      "version": "2023",
+      "description": "Chronological age CpGs"
+    },
+    {
+      "source_id": "BAGE",
+      "name": "bAge",
+      "version": "2023",
+      "description": "All-cause mortality CpGs"
+    },
+    {
+      "source_id": "TAGE",
+      "name": "tAge",
+      "version": "2026",
+      "description": "Transcriptomic age signatures"
+    }
+  ],
+  "layers": [
+    {
+      "layer_id": "GENOMICS",
+      "name": "Genomics",
+      "description": "Genetic and lifespan evidence"
+    },
+    {
+      "layer_id": "EPIGENOMICS",
+      "name": "Epigenomics",
+      "description": "DNA methylation age evidence"
+    },
+    {
+      "layer_id": "TRANSCRIPTOMICS",
+      "name": "Transcriptomics",
+      "description": "Gene expression age evidence"
+    },
+    {
+      "layer_id": "PROTEOMICS",
+      "name": "Proteomics",
+      "description": "Protein-level age evidence"
+    }
+  ],
+  "source_files": {
+    "genage": "True"
+  }
+}
